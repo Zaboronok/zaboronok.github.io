@@ -1,36 +1,41 @@
-﻿{
+{
    "resources": {
     "cash": {
-      "initialAmount": 10000,
+      "initialAmount": 1000,
       "maxAmount": 999999999
     },
     "oil": {
-      "initialAmount": 10000,
+      "initialAmount": 50,
       "maxAmount": 9999
     },
     "farmcoin": {
-      "initialAmount": 100,
+      "initialAmount": 10,
       "maxAmount": 9999
     },
     "tomato": {
       "initialAmount": 0,
-      "maxAmount": 999
+      "maxAmount": 999,
+      "sellPrice": 2
     },
     "corn": {
       "initialAmount": 0,
-      "maxAmount": 999
+      "maxAmount": 999,
+      "sellPrice": 3
     },
     "carrot": {
       "initialAmount": 0,
-      "maxAmount": 999
+      "maxAmount": 999,
+      "sellPrice": 1
     },
     "eggplant": {
       "initialAmount": 0,
-      "maxAmount": 999
+      "maxAmount": 999,
+      "sellPrice": 3
     },
     "radish": {
       "initialAmount": 0,
-      "maxAmount": 999
+      "maxAmount": 999,
+      "sellPrice": 4
     },
     "horse_shoe": {
       "initialAmount": 0,
@@ -65,147 +70,147 @@
     "bed_01_upgrade": {
       "name": "Улучшение грядки 1",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 700, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_02_upgrade": {
       "name": "Улучшение грядки 2",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 800, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_03_upgrade": {
       "name": "Улучшение грядки 3",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 300, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_04_upgrade": {
       "name": "Улучшение грядки 4",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 400, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_05_upgrade": {
       "name": "Улучшение грядки 5",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 500, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_06_upgrade": {
       "name": "Улучшение грядки 6",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 2000, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_07_upgrade": {
       "name": "Улучшение грядки 7",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 1000, "formula": "baseCost * (3*level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_08_upgrade": {
       "name": "Улучшение грядки 8",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 800, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_09_upgrade": {
       "name": "Улучшение грядки 9",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 700, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_10_upgrade": {
       "name": "Улучшение грядки 10",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 500, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_11_upgrade": {
       "name": "Улучшение грядки 11",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 1000, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_12_upgrade": {
       "name": "Улучшение грядки 12",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 900, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_13_upgrade": {
       "name": "Улучшение грядки 13",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 600, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_14_upgrade": {
       "name": "Улучшение грядки 14",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 1000, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "bed_15_upgrade": {
       "name": "Улучшение грядки 15",
       "description": "Улучшает производительность грядки",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 100, "formula": "baseCost * pow(2, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 500, "formula": "baseCost * pow(3, level)" },
       "dependencies": [],
       "conditions": []
     },
     "harvester_upgrade": {
       "name": "Улучшение комбайна",
       "description": "Ускоряет работу комбайна",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
       "cost": {
         "resourceId": "cash",
-        "baseCost": 200,
-        "formula": "baseCost * pow(2, level)"
+        "baseCost": 300,
+        "formula": "baseCost * pow(3, level)"
       },
       "dependencies": [],
       "conditions": []
@@ -213,12 +218,12 @@
     "barn_upgrade": {
       "name": "Улучшение амбара",
       "description": "Улучшает функции амбара",
-      "maxLevel": 3,
+      "maxLevel": 10,
       "isUnlocked": true,
       "cost": {
         "resourceId": "cash",
         "baseCost": 500,
-        "formula": "baseCost * pow(2, level)"
+        "formula": "baseCost * pow(3, level)"
       },
       "dependencies": [],
       "conditions": []
@@ -226,132 +231,364 @@
   },
   "upgrade_levels": {
     "bed_01_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_02_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_03_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 5% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 5 } },
+      { "level": 2, "name": "Больше слотов", "description": "+ 1 слота вместимости", "effects": {"growthSpeedMultiplier": 0.95, "capacityIncrease": 6 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 7 } },
+      { "level": 4, "name": "Больше слотов", "description": "+ 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 8 } },
+      { "level": 5, "name": "Ускорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 9 } },
+      { "level": 6, "name": "Больше слотов", "description": "+ 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 10 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 11 } },
+      { "level": 8, "name": "Больше слотов", "description": "+ 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 13 } },
+      { "level": 10, "name": "Больше слотов", "description": "+ 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 16 } }                      
     ],
     "bed_04_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_05_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_06_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_07_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_08_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_09_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_10_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_11_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_12_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_13_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_14_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "bed_15_upgrade": [
-      { "level": 1, "name": "Ускорение роста I", "description": "Овощи растут на 20% быстрее", "effects": { "growthSpeedMultiplier": 0.8 } },
-      { "level": 2, "name": "Ускорение роста II", "description": "Овощи растут на 40% быстрее", "effects": { "growthSpeedMultiplier": 0.6 } },
-      { "level": 3, "name": "Больше слотов", "description": "Овощи растут на 40% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.6, "capacityIncrease": 2 } }
+      { "level": 1, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.95, "capacityIncrease": 3} },
+      { "level": 2, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 10% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.90, "capacityIncrease": 4 } },
+      { "level": 3, "name": "Ускорение роста", "description": "Овощи растут на 15% быстрее  + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.85, "capacityIncrease": 5 } },
+      { "level": 4, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 20% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.80, "capacityIncrease": 6 } },
+      { "level": 5, "name": "УУскорение роста", "description": "Овощи растут на 25% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.75, "capacityIncrease": 7 } },
+      { "level": 6, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 30% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.70, "capacityIncrease": 8 } },
+      { "level": 7, "name": "Ускорение роста", "description": "Овощи растут на 35% быстрее + 1 слота вместимости", "effects": { "growthSpeedMultiplier": 0.65, "capacityIncrease": 9 } },
+      { "level": 8, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 40% быстрее + 3 слота вместимости", "effects": { "growthSpeedMultiplier": 0.60, "capacityIncrease": 12 } },
+      { "level": 9, "name": "Ускорение роста", "description": "Овощи растут на 45% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.55, "capacityIncrease": 14 } },
+      { "level": 10, "name": "Больше слотов + Ускорение роста", "description": "Овощи растут на 50% быстрее + 2 слота вместимости", "effects": { "growthSpeedMultiplier": 0.50, "capacityIncrease": 16 } } 
     ],
     "harvester_upgrade": [
       {
         "level": 1,
-        "name": "Быстрее на 30%",
-        "description": "Комбайн движется на 30% быстрее",
+        "name": "Модернизация",
+        "description": "Увеличение скорости на 10%",
         "effects": {
-          "moveSpeedMultiplier": 1.3
+          "moveSpeedMultiplier": 1.1
         }
       },
       {
         "level": 2,
-        "name": "Быстрее на 50%",
-        "description": "Комбайн движется на 50% быстрее",
+        "name": "Модернизация",
+        "description": "Меньше время ожидания на 10%",
         "effects": {
-          "moveSpeedMultiplier": 1.5
+          "moveSpeedMultiplier": 1.1,          
+          "cooldownMultiplier": 0.9
         }
       },
       {
         "level": 3,
-        "name": "Частые выезды",
-        "description": "Комбайн движется на 50% быстрее, ждёт на 30% меньше",
+        "name": "Модернизация",
+        "description": "Увеличение скорости на 10%",
+        "effects": {
+          "moveSpeedMultiplier": 1.2,
+          "cooldownMultiplier": 0.9          
+        }
+      },
+      {
+        "level": 4,
+        "name": "Модернизация",
+        "description": "Меньше время ожидания на 10%",
+        "effects": {
+          "moveSpeedMultiplier": 1.2,          
+          "cooldownMultiplier": 0.8
+        }
+      },
+      {
+        "level": 5,
+        "name": "Модернизация",
+        "description": "Увеличение скорости на 10%",
+        "effects": {
+          "moveSpeedMultiplier": 1.3,
+          "cooldownMultiplier": 0.8          
+        }
+      },
+      {
+        "level": 6,
+        "name": "Модернизация",
+        "description": "Меньше время ожидания на 10%",
+        "effects": {
+          "moveSpeedMultiplier": 1.3,          
+          "cooldownMultiplier": 0.7
+        }
+      },
+      {
+        "level": 7,
+        "name": "Модернизация",
+        "description": "Увеличение скорости на 10%",
+        "effects": {
+          "moveSpeedMultiplier": 1.4,
+          "cooldownMultiplier": 0.7          
+        }
+      },
+      {
+        "level": 8,
+        "name": "Модернизация",
+        "description": "Меньше время ожидания на 10%",
+        "effects": {
+          "moveSpeedMultiplier": 1.4,          
+          "cooldownMultiplier": 0.6
+        }
+      },
+      {
+        "level": 9,
+        "name": "Модернизация",
+        "description": "Увеличение скорости на 10%",
         "effects": {
           "moveSpeedMultiplier": 1.5,
-          "cooldownMultiplier": 0.7
+          "cooldownMultiplier": 0.6          
+        }
+      },
+      {
+        "level": 10,
+        "name": "Модернизация",
+        "description": "Меньше время ожидания на 10%",
+        "effects": {
+          "moveSpeedMultiplier": 1.5,          
+          "cooldownMultiplier": 0.5
         }
       }
     ],
     "barn_upgrade": [
       {
         "level": 1,
-        "name": "Быстрые коллекции I",
-        "description": "Коллекции генерируются на 20% быстрее",
+        "name": "Улучшение амбара",
+        "description": "Коллекции генерируются на  10% быстрее",
         "effects": {
-          "collectionSpeedMultiplier": 0.8
+          "collectionSpeedMultiplier": 0.9
         }
       },
       {
         "level": 2,
-        "name": "Дороже продажа I",
-        "description": "Коллекции на 20% быстрее, овощи продаются на 25% дороже",
+        "name": "Улучшение амбара",
+        "description": "Овощи продаются на 10% дороже",
         "effects": {
-          "collectionSpeedMultiplier": 0.8,
-          "sellPriceMultiplier": 1.25
+          "collectionSpeedMultiplier": 0.9,
+          "sellPriceMultiplier": 1.1
         }
       },
       {
         "level": 3,
-        "name": "Быстрые коллекции II",
-        "description": "Коллекции вдвое быстрее, овощи на 25% дороже",
+        "name": "Улучшение амбара",
+        "description": "Коллекции генерируются на  20% быстрее",
+        "effects": {
+          "collectionSpeedMultiplier": 0.8,
+          "sellPriceMultiplier": 1.1
+        }
+      },
+      {
+        "level": 4,
+        "name": "Улучшение амбара",
+        "description": "Овощи продаются на 20% дороже",
+        "effects": {
+          "collectionSpeedMultiplier": 0.8,
+          "sellPriceMultiplier": 1.2
+        }
+      },
+      {
+        "level": 5,
+        "name": "Улучшение амбара",
+        "description": "Коллекции генерируются на  30% быстрее",
+        "effects": {
+          "collectionSpeedMultiplier": 0.7,
+          "sellPriceMultiplier": 1.2
+        }
+      },
+      {
+        "level": 6,
+        "name": "Улучшение амбара",
+        "description": "Овощи продаются на 30% дороже",
+        "effects": {
+          "collectionSpeedMultiplier": 0.7,
+          "sellPriceMultiplier": 1.3
+        }
+      },
+      {
+        "level": 7,
+        "name": "Улучшение амбара",
+        "description": "Коллекции генерируются на  40% быстрее",
+        "effects": {
+          "collectionSpeedMultiplier": 0.6,
+          "sellPriceMultiplier": 1.3
+        }
+      },
+      {
+        "level": 8,
+        "name": "Улучшение амбара",
+        "description": "Овощи продаются на 40% дороже",
+        "effects": {
+          "collectionSpeedMultiplier": 0.6,
+          "sellPriceMultiplier": 1.4
+        }
+      },
+      {
+        "level": 9,
+        "name": "Улучшение амбара",
+        "description": "Коллекции генерируются на  10% быстрее",
         "effects": {
           "collectionSpeedMultiplier": 0.5,
-          "sellPriceMultiplier": 1.25
+          "sellPriceMultiplier": 1.4
+        }
+      },                                          
+      {
+        "level": 10,
+        "name": "Улучшение амбара",
+        "description": "Овощи продаются на 50% дороже",
+        "effects": {
+          "collectionSpeedMultiplier": 0.5,
+          "sellPriceMultiplier": 1.5
         }
       }
     ]
@@ -404,7 +641,7 @@
     "slots": [
       {
         "slotId": "slot_01",
-        "spawnTime": 30,
+        "spawnTime": 5,
         "possibleItems": [
           { "itemId": "horse_shoe", "weight": 40 },
           { "itemId": "boot", "weight": 30 },
@@ -414,42 +651,42 @@
       },
       {
         "slotId": "slot_02",
-        "spawnTime": 45,
+        "spawnTime": 10,
         "possibleItems": [
-          { "itemId": "boot", "weight": 35 },
-          { "itemId": "gloves", "weight": 30 },
-          { "itemId": "honey", "weight": 20 },
+          { "itemId": "boot", "weight": 40 },
+          { "itemId": "gloves", "weight": 35 },
+          { "itemId": "honey", "weight": 10 },
           { "itemId": "horse_shoe", "weight": 15 }
         ]
       },
       {
         "slotId": "slot_03",
-        "spawnTime": 60,
+        "spawnTime": 15,
         "possibleItems": [
-          { "itemId": "hat", "weight": 30 },
-          { "itemId": "honey", "weight": 30 },
-          { "itemId": "gloves", "weight": 25 },
-          { "itemId": "horse_shoe", "weight": 15 }
+          { "itemId": "hat", "weight": 15 },
+          { "itemId": "honey", "weight": 10 },
+          { "itemId": "gloves", "weight": 40 },
+          { "itemId": "horse_shoe", "weight": 35 }
         ]
       },
       {
         "slotId": "slot_04",
-        "spawnTime": 40,
+        "spawnTime": 20,
         "possibleItems": [
           { "itemId": "horse_shoe", "weight": 40 },
-          { "itemId": "honey", "weight": 25 },
-          { "itemId": "boot", "weight": 25 },
-          { "itemId": "hat", "weight": 10 }
+          { "itemId": "honey", "weight": 10 },
+          { "itemId": "boot", "weight": 35 },
+          { "itemId": "hat", "weight": 15 }
         ]
       },
       {
         "slotId": "slot_05",
-        "spawnTime": 50,
+        "spawnTime": 25,
         "possibleItems": [
-          { "itemId": "hat", "weight": 25 },
-          { "itemId": "honey", "weight": 25 },
-          { "itemId": "gloves", "weight": 25 },
-          { "itemId": "boot", "weight": 25 }
+          { "itemId": "hat", "weight": 15 },
+          { "itemId": "honey", "weight": 10 },
+          { "itemId": "gloves", "weight": 30 },
+          { "itemId": "boot", "weight": 30 }
         ]
       },
       {
@@ -473,12 +710,13 @@
         "name": "Начинающий фермер",
         "description": "Первая экипировка фермера",
         "requiredItems": {
-          "boot": 2,
-          "gloves": 1
+          "milk": 3,
+          "clover": 2
         },
         "rewards": {
-          "cash": 100,
-          "farmcoin": 1
+          "oil": 100,
+          "farmcoin": 60
+
         }
       },
       {
@@ -486,12 +724,12 @@
         "name": "Удачливый фермер",
         "description": "Подковы на удачу",
         "requiredItems": {
-          "horse_shoe": 3,
+          "horse_shoe": 2,
           "hat": 1
         },
         "rewards": {
-          "cash": 150,
-          "farmcoin": 1
+          "cash": 200,
+          "farmcoin": 15
         }
       },
       {
@@ -500,11 +738,11 @@
         "description": "Собери мёд",
         "requiredItems": {
           "honey": 2,
-          "gloves": 2
+          "gloves": 5
         },
         "rewards": {
-          "cash": 200,
-          "farmcoin": 2
+          "cash": 150,
+          "oil": 20
         }
       },
       {
@@ -512,12 +750,12 @@
         "name": "Ковбой",
         "description": "Полный наряд ковбоя",
         "requiredItems": {
-          "hat": 3,
-          "boot": 5
+          "hat": 8,
+          "boot": 3
         },
         "rewards": {
-          "cash": 500,
-          "farmcoin": 3
+          "cash": 200,
+          "farmcoin": 10
         }
       },
       {
@@ -525,12 +763,12 @@
         "name": "Мастер-коллекционер",
         "description": "Собери редкие предметы",
         "requiredItems": {
-          "honey": 3,
-          "horse_shoe": 5
+          "honey": 8,
+          "horse_shoe": 15
         },
         "rewards": {
-          "cash": 1000,
-          "farmcoin": 5
+          "cash": 500,
+          "farmcoin": 20
         }
       },
       {
@@ -538,12 +776,12 @@
         "name": "Молочный фермер",
         "description": "Собери молочную продукцию",
         "requiredItems": {
-          "milk": 3,
-          "honey": 1
+          "milk": 15,
+          "honey": 10
         },
         "rewards": {
           "cash": 300,
-          "farmcoin": 2
+          "oil": 150
         }
       },
       {
@@ -551,20 +789,21 @@
         "name": "Клеверная удача",
         "description": "Собери клевер на удачу",
         "requiredItems": {
-          "clover": 3,
-          "horse_shoe": 2
+          "clover": 10,
+          "horse_shoe": 30
         },
         "rewards": {
-          "cash": 350,
-          "farmcoin": 3
+          "oil": 200,
+          "cash": 1000
         }
       }
     ]
   },
   "fertilizers": {
     "purchase": {
-      "basePrice": 50,
-      "priceMultiplier": 1.5,
+      "basePrice": 30,
+      "priceMultiplier": 1.2,
+      "maxPrice": 500,
       "currency": "cash"
     },
     "types": [
@@ -633,173 +872,172 @@
     "questList": [
       {
         "questId": "quest_1",
-        "name": "Сборщик овощей",
-        "description": "Соберите 30 любых овощей",
+        "name": "Задание",
+        "description": "Соберите 3 любых овощей",
         "type": "collect_vegetables_any",
-        "targetAmount": 30,
-        "rewards": { "cash": 100 }
+        "targetAmount": 3,
+        "rewards": { "farmcoin": 5 }
       },
       {
         "questId": "quest_2",
-        "name": "Томатный король",
-        "description": "Соберите 20 помидоров",
+        "name": "Задание",
+        "description": "Соберите 40 моркови",
         "type": "collect_vegetables_specific",
-        "targetResource": "tomato",
-        "targetAmount": 20,
-        "rewards": { "cash": 150, "farmcoin": 1 }
+        "targetResource": "carrot",
+        "targetAmount": 40,
+        "rewards": { "farmcoin": 10 }
       },
       {
         "questId": "quest_3",
-        "name": "Кукурузный барон",
-        "description": "Соберите 25 кукурузы",
-        "type": "collect_vegetables_specific",
-        "targetResource": "corn",
-        "targetAmount": 25,
-        "rewards": { "cash": 175 }
-      },
-      {
-        "questId": "quest_4",
-        "name": "Морковный мастер",
-        "description": "Соберите 15 моркови",
-        "type": "collect_vegetables_specific",
-        "targetResource": "carrot",
-        "targetAmount": 15,
-        "rewards": { "cash": 125 }
-      },
-      {
-        "questId": "quest_5",
-        "name": "Баклажанный гурман",
-        "description": "Соберите 20 баклажанов",
-        "type": "collect_vegetables_specific",
-        "targetResource": "eggplant",
-        "targetAmount": 20,
-        "rewards": { "cash": 150 }
-      },
-      {
-        "questId": "quest_6",
-        "name": "Редисочный фанат",
-        "description": "Соберите 15 редиски",
-        "type": "collect_vegetables_specific",
-        "targetResource": "radish",
-        "targetAmount": 15,
-        "rewards": { "cash": 125, "farmcoin": 1 }
-      },
-      {
-        "questId": "quest_7",
-        "name": "Коллекционер",
-        "description": "Завершите 2 коллекции",
-        "type": "complete_collections",
-        "targetAmount": 2,
-        "rewards": { "cash": 300, "farmcoin": 2 }
-      },
-      {
-        "questId": "quest_8",
-        "name": "Подковы на удачу",
-        "description": "Соберите 5 подков",
+        "name": "Задание",
+        "description": "Соберите 3 подков",
         "type": "collect_collection_items",
         "targetResource": "horse_shoe",
         "targetAmount": 5,
-        "rewards": { "cash": 250 }
+        "rewards": { "farmcoin": 15 }
       },
       {
-        "questId": "quest_9",
-        "name": "Медовый промысел",
-        "description": "Соберите 3 банки мёда",
-        "type": "collect_collection_items",
-        "targetResource": "honey",
-        "targetAmount": 3,
-        "rewards": { "farmcoin": 3 }
-      },
-      {
-        "questId": "quest_10",
-        "name": "Улучшатель",
-        "description": "Купите 3 улучшения",
+        "questId": "quest_4",
+        "name": "Задание",
+        "description": "Сделайте 2 улучшения",
         "type": "purchase_upgrades",
-        "targetAmount": 3,
-        "rewards": { "cash": 400 }
+        "targetAmount": 2,
+        "rewards": { "farmcoin": 20 }
       },
       {
-        "questId": "quest_11",
-        "name": "Удобритель",
+        "questId": "quest_5",
+        "name": "Задание",
+        "description": "Соберите 100 помидоров",
+        "type": "collect_vegetables_specific",
+        "targetResource": "tomato",
+        "targetAmount": 100,
+        "rewards": { "farmcoin": 25 }
+      },
+      {
+        "questId": "quest_6",
+        "name": "Задание",
         "description": "Используйте 5 удобрений",
         "type": "use_fertilizers",
         "targetAmount": 5,
-        "rewards": { "cash": 200 }
+        "rewards": {"farmcoin": 30 }
+      },
+      {
+        "questId": "quest_7",
+        "name": "Задание",
+        "description": "Соберите 1000 любых овощей",
+        "type": "collect_vegetables_any",
+        "targetAmount": 1000,
+        "rewards": {"farmcoin": 35 }
+      },
+      {
+        "questId": "quest_8",
+        "name": "Задание",
+        "description": "Соберите 500 моркови",
+        "type": "collect_vegetables_specific",
+        "targetResource": "carrot",
+        "targetAmount": 500,
+        "rewards": { "farmcoin": 40 }
+      },
+      {
+        "questId": "quest_9",
+        "name": "Задание",
+        "description": "Сделайте 5 улучшений",
+        "type": "purchase_upgrades",
+        "targetAmount": 5,
+        "rewards": { "farmcoin": 45 }
+      },
+      {
+        "questId": "quest_10",
+        "name": "Задание",
+        "description": "Соберите 2 коллекции",
+        "type": "complete_collections",
+        "targetAmount": 2,
+        "rewards": { "farmcoin": 50 }
+      },
+      {
+        "questId": "quest_11",
+        "name": "Задание",
+        "description": "Соберите 700 баклажанов",
+        "type": "collect_vegetables_specific",
+        "targetResource": "eggplant",        
+        "targetAmount": 700,
+        "rewards": { "farmcoin": 55 }
       },
       {
         "questId": "quest_12",
-        "name": "Фермер-эксперт",
-        "description": "Соберите 50 любых овощей",
-        "type": "collect_vegetables_any",
-        "targetAmount": 50,
-        "rewards": { "cash": 500, "farmcoin": 5 }
-      },
-      {
-        "questId": "quest_13",
-        "name": "Овощной марафон",
-        "description": "Соберите 40 любых овощей",
-        "type": "collect_vegetables_any",
-        "targetAmount": 40,
-        "rewards": { "cash": 250, "farmcoin": 2 }
-      },
-      {
-        "questId": "quest_14",
-        "name": "Томатная лихорадка",
-        "description": "Соберите 30 помидоров",
-        "type": "collect_vegetables_specific",
-        "targetResource": "tomato",
-        "targetAmount": 30,
-        "rewards": { "cash": 300 }
-      },
-      {
-        "questId": "quest_15",
-        "name": "Агроном",
+        "name": "Задание",
         "description": "Используйте 10 удобрений",
         "type": "use_fertilizers",
         "targetAmount": 10,
-        "rewards": { "cash": 350, "farmcoin": 2 }
+        "rewards": {"farmcoin": 60 }
+      },
+      {
+        "questId": "quest_13",
+        "name": "Задание",
+        "description": "Соберите 100 молока",
+        "type": "collect_collection_items",
+        "targetResource": "milk",         
+        "targetAmount": 100,
+        "rewards": { "farmcoin": 65 }
+      },
+      {
+        "questId": "quest_14",
+        "name": "Задание",
+        "description": "Соберите 2000 редиса",
+        "type": "collect_vegetables_specific",
+        "targetResource": "radish",
+        "targetAmount": 2000,
+        "rewards": { "farmcoin": 70 }
+      },
+      {
+        "questId": "quest_15",
+        "name": "Задание",
+        "description": "Завершите 30 коллекции",
+        "type": "complete_collections",
+        "targetAmount": 30,
+        "rewards": {"farmcoin": 75 }
       },
       {
         "questId": "quest_16",
-        "name": "Кукурузное поле",
-        "description": "Соберите 35 кукурузы",
+        "name": "Задание",
+        "description": "Соберите 5000 кукурузы",
         "type": "collect_vegetables_specific",
         "targetResource": "corn",
-        "targetAmount": 35,
-        "rewards": { "cash": 300, "farmcoin": 1 }
+        "targetAmount": 5000,
+        "rewards": { "farmcoin": 80 }
       },
       {
         "questId": "quest_17",
-        "name": "Мастер коллекций",
-        "description": "Завершите 3 коллекции",
-        "type": "complete_collections",
-        "targetAmount": 3,
-        "rewards": { "cash": 500, "farmcoin": 3 }
+        "name": "Задание",
+        "description": "Используйте 40 удобрений",
+        "type": "use_fertilizers",
+        "targetAmount": 40,
+        "rewards": { "farmcoin": 85 }
       },
       {
         "questId": "quest_18",
-        "name": "Модернизатор",
-        "description": "Купите 5 улучшений",
-        "type": "purchase_upgrades",
-        "targetAmount": 5,
-        "rewards": { "cash": 600, "farmcoin": 2 }
+        "name": "Задание",
+        "description": "Соберите 100000 любых овощей",
+        "type": "collect_vegetables_any",
+        "targetAmount": 100000,
+        "rewards": { "farmcoin": 90 }
       },
       {
         "questId": "quest_19",
-        "name": "Морковный урожай",
-        "description": "Соберите 25 моркови",
-        "type": "collect_vegetables_specific",
-        "targetResource": "carrot",
-        "targetAmount": 25,
-        "rewards": { "cash": 400, "farmcoin": 2 }
+        "name": "Задание",
+        "description": "Соберите 50 перчаток",
+        "type": "collect_collection_items",
+        "targetResource": "gloves",
+        "targetAmount": 50,
+        "rewards": { "farmcoin": 95 }
       },
       {
         "questId": "quest_20",
-        "name": "Легенда фермы",
-        "description": "Соберите 100 любых овощей",
+        "name": "Задание",
+        "description": "Соберите 1000000 любых овощей",
         "type": "collect_vegetables_any",
-        "targetAmount": 100,
-        "rewards": { "cash": 1000, "farmcoin": 10 }
+        "targetAmount": 1000000,
+        "rewards": { "farmcoin": 100 }
       }
     ]
   },
@@ -807,32 +1045,32 @@
     "minOfflineSeconds": 1
   },
   "beds": [
-    { "bedId": "bed_01", "unlockedByDefault": false, "purchasePrice": 2000, "purchaseCurrency": "cash", "maxVegetables": 5, "growthTime": 5.0 },
-    { "bedId": "bed_02", "unlockedByDefault": false, "purchasePrice": 2000, "purchaseCurrency": "cash", "maxVegetables": 5, "growthTime": 5.0 },
-    { "bedId": "bed_03", "unlockedByDefault": true, "purchasePrice": 0, "purchaseCurrency": "cash", "maxVegetables": 5, "growthTime": 5.0 },
-    { "bedId": "bed_04", "unlockedByDefault": false, "purchasePrice": 3000, "purchaseCurrency": "cash", "maxVegetables": 5, "growthTime": 5.0 },
-    { "bedId": "bed_05", "unlockedByDefault": false, "purchasePrice": 3000, "purchaseCurrency": "cash", "maxVegetables": 5, "growthTime": 5.0 },
-    { "bedId": "bed_06", "unlockedByDefault": false, "purchasePrice": 5000, "purchaseCurrency": "cash", "maxVegetables": 5, "growthTime": 5.0 },
-    { "bedId": "bed_07", "unlockedByDefault": false, "purchasePrice": 5000, "purchaseCurrency": "cash", "maxVegetables": 5, "growthTime": 4.5 },
-    { "bedId": "bed_08", "unlockedByDefault": false, "purchasePrice": 7500, "purchaseCurrency": "cash", "maxVegetables": 5, "growthTime": 4.5 },
-    { "bedId": "bed_09", "unlockedByDefault": false, "purchasePrice": 7500, "purchaseCurrency": "cash", "maxVegetables": 6, "growthTime": 4.5 },
-    { "bedId": "bed_10", "unlockedByDefault": false, "purchasePrice": 10, "purchaseCurrency": "farmcoin", "maxVegetables": 6, "growthTime": 4.0 },
-    { "bedId": "bed_11", "unlockedByDefault": false, "purchasePrice": 100000, "purchaseCurrency": "cash", "maxVegetables": 6, "growthTime": 4.0 },
-    { "bedId": "bed_12", "unlockedByDefault": false, "purchasePrice": 1500, "purchaseCurrency": "farmcoin", "maxVegetables": 6, "growthTime": 4.0 },
-    { "bedId": "bed_13", "unlockedByDefault": false, "purchasePrice": 20, "purchaseCurrency": "farmcoin", "maxVegetables": 7, "growthTime": 3.5 },
-    { "bedId": "bed_14", "unlockedByDefault": false, "purchasePrice": 2000, "purchaseCurrency": "farmcoin", "maxVegetables": 7, "growthTime": 3.5 },
-    { "bedId": "bed_15", "unlockedByDefault": false, "purchasePrice": 30, "purchaseCurrency": "farmcoin", "maxVegetables": 7, "growthTime": 3.0 }
+    { "bedId": "bed_01", "unlockedByDefault": false, "purchasePrice": 20, "purchaseCurrency": "farmcoin", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_02", "unlockedByDefault": false, "purchasePrice": 3870, "purchaseCurrency": "cash", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_03", "unlockedByDefault": false, "purchasePrice": 10, "purchaseCurrency": "cash", "maxVegetables": 5, "growthTime": 2.0 },
+    { "bedId": "bed_04", "unlockedByDefault": true, "purchasePrice": 200, "purchaseCurrency": "cash", "maxVegetables": 4, "growthTime": 2.0 },
+    { "bedId": "bed_05", "unlockedByDefault": false, "purchasePrice": 200, "purchaseCurrency": "cash", "maxVegetables": 2, "growthTime": 3.0 },
+    { "bedId": "bed_06", "unlockedByDefault": false, "purchasePrice": 30, "purchaseCurrency": "farmcoin", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_07", "unlockedByDefault": false, "purchasePrice": 50, "purchaseCurrency": "farmcoin", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_08", "unlockedByDefault": false, "purchasePrice": 30000, "purchaseCurrency": "cash", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_09", "unlockedByDefault": false, "purchasePrice": 40000, "purchaseCurrency": "cash", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_10", "unlockedByDefault": false, "purchasePrice": 700000, "purchaseCurrency": "cash", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_11", "unlockedByDefault": false, "purchasePrice": 1000, "purchaseCurrency": "farmcoin", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_12", "unlockedByDefault": false, "purchasePrice": 1500, "purchaseCurrency": "farmcoin", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_13", "unlockedByDefault": false, "purchasePrice": 2000, "purchaseCurrency": "farmcoin", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_14", "unlockedByDefault": false, "purchasePrice": 2000000, "purchaseCurrency": "cash", "maxVegetables": 2, "growthTime": 10.0 },
+    { "bedId": "bed_15", "unlockedByDefault": false, "purchasePrice": 5000000, "purchaseCurrency": "cash", "maxVegetables": 2, "growthTime": 10.0 }
   ],
   "harvesters": {
     "moveSpeed": 2.0,
     "cooldown": 20.0,
     "returnSpeedMultiplier": 2.0,
     "launchMultiplier": 3,
-    "launchCost": 200,
+    "launchCost": 20,
     "units": [
-      { "harvesterId": "harvester_01", "unlockedByDefault": false, "purchasePrice": 300, "purchaseCurrency": "cash" },
-      { "harvesterId": "harvester_02", "unlockedByDefault": false, "purchasePrice": 5000, "purchaseCurrency": "cash" },
-      { "harvesterId": "harvester_03", "unlockedByDefault": false, "purchasePrice": 50, "purchaseCurrency": "farmcoin" }
+      { "harvesterId": "harvester_01", "unlockedByDefault": false, "purchasePrice": 10, "purchaseCurrency": "cash" },
+      { "harvesterId": "harvester_02", "unlockedByDefault": false, "purchasePrice": 500, "purchaseCurrency": "farmcoin" },
+      { "harvesterId": "harvester_03", "unlockedByDefault": false, "purchasePrice": 1000, "purchaseCurrency": "farmcoin" }
     ]
   },
   "events": {},
@@ -846,11 +1084,11 @@
     { "FieldId": "booster_field_income", "MaxEvents": 1 }
   ],
   "boosters": [
-    { "BoosterTypeId": "speed_beds", "Category": "production_speed", "Multiplier": 2.0, "Duration": 60, "Name": "Быстрый рост", "Description": "Грядки растут в 2 раза быстрее!" },
-    { "BoosterTypeId": "speed_harvesters", "Category": "production_speed", "Multiplier": 2.0, "Duration": 60, "Name": "Быстрый сбор", "Description": "Комбайны работают в 2 раза быстрее!" },
-    { "BoosterTypeId": "speed_barn", "Category": "production_speed", "Multiplier": 2.0, "Duration": 60, "Name": "Быстрый амбар", "Description": "Амбар генерирует коллекции в 2 раза чаще!" },
-    { "BoosterTypeId": "sell_multiplier", "Category": "income_multiplier", "Multiplier": 2.0, "Duration": 60, "Name": "Двойная цена", "Description": "Награда за продажу овощей в 2 раза больше" },
-    { "BoosterTypeId": "collection_multiplier", "Category": "income_multiplier", "Multiplier": 2.0, "Duration": 60, "Name": "Двойная награда", "Description": "Награды за коллекции удвоены!" }
+    { "BoosterTypeId": "speed_beds", "Category": "production_speed", "Multiplier": 2.0, "Duration": 30, "Name": "Быстрый рост", "Description": "Грядки растут в 2 раза быстрее!" },
+    { "BoosterTypeId": "speed_harvesters", "Category": "production_speed", "Multiplier": 2.0, "Duration": 30, "Name": "Быстрый сбор", "Description": "Комбайны работают в 2 раза быстрее!" },
+    { "BoosterTypeId": "speed_barn", "Category": "production_speed", "Multiplier": 2.0, "Duration": 30, "Name": "Быстрый амбар", "Description": "Амбар генерирует коллекции в 2 раза чаще!" },
+    { "BoosterTypeId": "sell_multiplier", "Category": "income_multiplier", "Multiplier": 2.0, "Duration": 30, "Name": "Двойная цена", "Description": "Награда за продажу овощей в 2 раза больше" },
+    { "BoosterTypeId": "collection_multiplier", "Category": "income_multiplier", "Multiplier": 2.0, "Duration": 30, "Name": "Двойная награда", "Description": "Награды за коллекции удвоены!" }
   ],
   "boosterSlots": [
     { "Category": "production_speed", "EventTypeId": "booster_offer_speed", "FieldId": "booster_field_speed", "CooldownDuration": 15 },
@@ -862,12 +1100,12 @@
       "animalType": "cow",
       "productItemId": "milk",
       "feedVegetables": ["carrot", "corn", "eggplant"],
-      "baseFeedCost": 3,
-      "feedCostMultiplier": 1.15,
-      "maxFeedCost": 50,
-      "productionTime": 30,
-      "cooldownTime": 10,
-      "purchasePrice": 500,
+      "baseFeedCost": 5,
+      "feedCostMultiplier": 1.05,
+      "maxFeedCost": 5000,
+      "productionTime": 15,
+      "cooldownTime": 7,
+      "purchasePrice": 5000,
       "purchaseCurrency": "cash"
     },
     {
@@ -875,12 +1113,12 @@
       "animalType": "rabbit",
       "productItemId": "clover",
       "feedVegetables": ["carrot", "radish", "tomato"],
-      "baseFeedCost": 2,
-      "feedCostMultiplier": 1.12,
-      "maxFeedCost": 40,
-      "productionTime": 25,
-      "cooldownTime": 8,
-      "purchasePrice": 300,
+      "baseFeedCost": 5,
+      "feedCostMultiplier": 1.05,
+      "maxFeedCost": 5000,
+      "productionTime": 10,
+      "cooldownTime": 5,
+      "purchasePrice": 3000,
       "purchaseCurrency": "cash"
     }
   ],
@@ -889,21 +1127,84 @@
       {
         "id": "money",
         "packs": [
-          { "id": "money_ad", "rewardResource": "farmcoin", "rewardAmount": 5, "priceType": "ad", "priceResource": null, "priceAmount": 0, "badge": null, "rewardIcon": "farmcoin_small" },
-          { "id": "money_50", "rewardResource": "farmcoin", "rewardAmount": 50, "priceType": "platform", "priceResource": null, "priceAmount": 1000, "badge": null, "rewardIcon": "farmcoin_medium" },
-          { "id": "money_400", "rewardResource": "farmcoin", "rewardAmount": 400, "priceType": "platform", "priceResource": null, "priceAmount": 5000, "badge": "popular", "rewardIcon": "farmcoin_big" },
-          { "id": "money_50k", "rewardResource": "farmcoin", "rewardAmount": 50000, "priceType": "platform", "priceResource": null, "priceAmount": 50000, "badge": "big_deal", "rewardIcon": "farmcoin_huge" }
+          { "id": "money_ad", "rewardResource": "farmcoin", "rewardAmount": 10, "priceType": "ad", "priceResource": null, "priceAmount": 0, "badge": null, "rewardIcon": "farmcoin_small" },
+          { "id": "money_23", "rewardResource": "farmcoin", "rewardAmount": 100, "priceType": "platform", "priceResource": null, "priceAmount": 23, "badge": null, "rewardIcon": "farmcoin_medium" },
+          { "id": "money_46", "rewardResource": "farmcoin", "rewardAmount": 250, "priceType": "platform", "priceResource": null, "priceAmount": 46, "badge": "popular", "rewardIcon": "farmcoin_big" },
+          { "id": "money_92", "rewardResource": "farmcoin", "rewardAmount": 600, "priceType": "platform", "priceResource": null, "priceAmount": 92, "badge": "big_deal", "rewardIcon": "farmcoin_huge" }
         ]
       },
       {
         "id": "fuel",
         "packs": [
-          { "id": "fuel_ad", "rewardResource": "oil", "rewardAmount": 500, "priceType": "ad", "priceResource": null, "priceAmount": 0, "badge": null, "rewardIcon": "fuel_small" },
-          { "id": "fuel_1500", "rewardResource": "oil", "rewardAmount": 1500, "priceType": "resource", "priceResource": "farmcoin", "priceAmount": 400, "badge": null, "rewardIcon": "fuel_medium" },
-          { "id": "fuel_3k", "rewardResource": "oil", "rewardAmount": 3000, "priceType": "resource", "priceResource": "farmcoin", "priceAmount": 750, "badge": null, "rewardIcon": "fuel_big" },
-          { "id": "fuel_10k", "rewardResource": "oil", "rewardAmount": 10000, "priceType": "resource", "priceResource": "farmcoin", "priceAmount": 2000, "badge": "big_deal", "rewardIcon": "fuel_huge" }
+          { "id": "fuel_ad", "rewardResource": "oil", "rewardAmount": 20, "priceType": "ad", "priceResource": null, "priceAmount": 0, "badge": null, "rewardIcon": "fuel_small" },
+          { "id": "fuel_1500", "rewardResource": "oil", "rewardAmount": 200, "priceType": "resource", "priceResource": "farmcoin", "priceAmount": 100, "badge": null, "rewardIcon": "fuel_medium" },
+          { "id": "fuel_3k", "rewardResource": "oil", "rewardAmount": 500, "priceType": "resource", "priceResource": "farmcoin", "priceAmount": 180, "badge": null, "rewardIcon": "fuel_big" },
+          { "id": "fuel_10k", "rewardResource": "oil", "rewardAmount": 1200, "priceType": "resource", "priceResource": "farmcoin", "priceAmount": 350, "badge": "big_deal", "rewardIcon": "fuel_huge" }
         ]
       }
     ]
+  },
+ "offers": [
+    {
+      "Id": "starter_pack_01_90",
+      "NameKey": "offer_01_90",
+      "Price": 24,
+      "Currency": "platform",
+      "Discount": 90,
+      "Items": [
+        { "ResourceId": "farmcoin", "Amount": 300 },
+        { "ResourceId": "cash", "Amount": 20000 },
+        { "ResourceId": "oil", "Amount": 2500 }
+      ],
+      "Duration": 3600,
+      "NextOfferId": "advanced_pack_02_60",
+      "DelayBeforeNext": 15
+    },
+    {
+      "Id": "advanced_pack_02_60",
+      "NameKey": "offer_02_60",
+      "Price": 47,
+      "Currency": "platform",
+      "Discount": 60,
+      "Items": [
+        { "ResourceId": "farmcoin", "Amount": 1500 },
+        { "ResourceId": "cash", "Amount": 13000 },
+        { "ResourceId": "oil", "Amount": 100 }        
+      ],
+      "Duration": 7200,
+      "NextOfferId": "advanced_pack_03_80",
+      "DelayBeforeNext": 15
+    },
+    {
+      "Id": "advanced_pack_03_80",
+      "NameKey": "offer_03_80",
+      "Price": 66,
+      "Currency": "platform",
+      "Discount": 80,
+      "Items": [
+        { "ResourceId": "farmcoin", "Amount": 900 },
+        { "ResourceId": "cash", "Amount": 23000 },
+        { "ResourceId": "oil", "Amount": 500 }        
+      ],
+      "Duration": 3600,
+      "NextOfferId": "advanced_pack_04_90",
+      "DelayBeforeNext": 15
+    },  
+    {
+      "Id": "advanced_pack_04_60",
+      "NameKey": "offer_04_60",
+      "Price": 230,
+      "Currency": "platform",
+      "Discount": 60,
+      "Items": [
+        { "ResourceId": "farmcoin", "Amount": 1200 },
+        { "ResourceId": "cash", "Amount": 50000 },
+        { "ResourceId": "oil", "Amount": 500 }        
+      ],
+      "Duration": 7200,
+      "NextOfferId": "starter_pack_01_90",
+      "DelayBeforeNext": 15
+    }    
+  ]
+
   }
-}
