@@ -1,4 +1,10 @@
 {
+   "features": {
+    "boostersEnabled": false,
+    "shopEnabled": false,
+    "offersEnabled": false,
+    "adsEnabled": false
+   },
    "resources": {
     "cash": {
       "initialAmount": 1000,
@@ -1042,7 +1048,8 @@
     ]
   },
   "offlineProgress": {
-    "minOfflineSeconds": 1
+    "minOfflineSeconds": 1,
+    "enabled": false
   },
   "beds": [
     { "bedId": "bed_01", "unlockedByDefault": false, "purchasePrice": 20, "purchaseCurrency": "farmcoin", "maxVegetables": 2, "growthTime": 10.0 },
@@ -1206,4 +1213,5 @@
       "DelayBeforeNext": 15
     }    
   ]
+
   }
