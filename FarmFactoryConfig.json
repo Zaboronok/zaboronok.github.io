@@ -78,7 +78,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 700, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 700, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -87,7 +87,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 800, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 800, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -96,7 +96,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 300, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 300, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -105,7 +105,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 400, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 400, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -114,7 +114,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 500, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 500, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -123,7 +123,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 2000, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 2000, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -132,7 +132,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 1000, "formula": "baseCost * (3*level)" },
+      "cost": { "resourceId": "cash", "baseCost": 1000, "formula": "baseCost * (2,level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -141,7 +141,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 800, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 800, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -150,7 +150,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 700, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 700, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -159,7 +159,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 500, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 500, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -168,7 +168,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 1000, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 1000, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -177,7 +177,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 900, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 900, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -186,7 +186,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 600, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 600, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -195,7 +195,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 1000, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 1000, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -204,7 +204,7 @@
       "description": "Улучшает производительность грядки",
       "maxLevel": 10,
       "isUnlocked": true,
-      "cost": { "resourceId": "cash", "baseCost": 500, "formula": "baseCost * pow(3, level)" },
+      "cost": { "resourceId": "cash", "baseCost": 500, "formula": "baseCost * pow(2, level)" },
       "dependencies": [],
       "conditions": []
     },
@@ -216,7 +216,7 @@
       "cost": {
         "resourceId": "cash",
         "baseCost": 300,
-        "formula": "baseCost * pow(3, level)"
+        "formula": "baseCost * pow(2, level)"
       },
       "dependencies": [],
       "conditions": []
@@ -229,7 +229,7 @@
       "cost": {
         "resourceId": "cash",
         "baseCost": 500,
-        "formula": "baseCost * pow(3, level)"
+        "formula": "baseCost * pow(2, level)"
       },
       "dependencies": [],
       "conditions": []
@@ -716,7 +716,7 @@
         "name": "Начинающий фермер",
         "description": "Первая экипировка фермера",
         "requiredItems": {
-          "milk": 3,
+          "milk": 1,
           "clover": 2
         },
         "rewards": {
@@ -756,8 +756,8 @@
         "name": "Ковбой",
         "description": "Полный наряд ковбоя",
         "requiredItems": {
-          "hat": 8,
-          "boot": 3
+          "horse_shoe": 5,
+          "boot": 5
         },
         "rewards": {
           "cash": 200,
@@ -769,8 +769,8 @@
         "name": "Мастер-коллекционер",
         "description": "Собери редкие предметы",
         "requiredItems": {
-          "honey": 8,
-          "horse_shoe": 15
+          "honey": 4,
+          "horse_shoe": 7
         },
         "rewards": {
           "cash": 500,
@@ -782,8 +782,8 @@
         "name": "Молочный фермер",
         "description": "Собери молочную продукцию",
         "requiredItems": {
-          "milk": 15,
-          "honey": 10
+          "milk": 5,
+          "honey": 4
         },
         "rewards": {
           "cash": 300,
@@ -796,7 +796,7 @@
         "description": "Собери клевер на удачу",
         "requiredItems": {
           "clover": 10,
-          "horse_shoe": 30
+          "horse_shoe": 20
         },
         "rewards": {
           "oil": 200,
@@ -807,9 +807,9 @@
   },
   "fertilizers": {
     "purchase": {
-      "basePrice": 30,
+      "basePrice": 5,
       "priceMultiplier": 1.2,
-      "maxPrice": 500,
+      "maxPrice": 50,
       "currency": "cash"
     },
     "types": [
