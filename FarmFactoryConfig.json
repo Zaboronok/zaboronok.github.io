@@ -1,9 +1,9 @@
 {
    "features": {
-    "boostersEnabled": false,
-    "shopEnabled": false,
+    "boostersEnabled": true,
+    "shopEnabled": true,
     "offersEnabled": false,
-    "adsEnabled": false
+    "adsEnabled": true
    },
    "resources": {
     "cash": {
