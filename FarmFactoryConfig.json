@@ -896,7 +896,7 @@
       {
         "questId": "quest_3",
         "name": "Задание",
-        "description": "Соберите 3 подков",
+        "description": "Соберите 5 подков",
         "type": "collect_collection_items",
         "targetResource": "horse_shoe",
         "targetAmount": 5,
