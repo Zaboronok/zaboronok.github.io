@@ -18,6 +18,10 @@
       "initialAmount": 10,
       "maxAmount": 9999
     },
+    "ufo_part": {
+      "initialAmount": 0,
+      "maxAmount": 999
+    },
     "tomato": {
       "initialAmount": 0,
       "maxAmount": 999,
@@ -896,7 +900,7 @@
       {
         "questId": "quest_3",
         "name": "Задание",
-        "description": "Соберите 5 подков",
+        "description": "Соберите 3 подков",
         "type": "collect_collection_items",
         "targetResource": "horse_shoe",
         "targetAmount": 5,
@@ -1050,6 +1054,53 @@
   "offlineProgress": {
     "minOfflineSeconds": 1,
     "enabled": false
+  },
+  "detector": {
+    "minSpawnInterval": 30,
+    "maxSpawnInterval": 60,
+    "scanDuration": 2.0,
+    "rewardResourceId": "ufo_part",
+    "rewardAmount": 1
+  },
+  "ufoRepair": {
+    "saveKey": "ufo_repair_data",
+    "stages": [
+      {
+        "stage": 1,
+        "storyKey": "ufo_stage_1_story",
+        "requiredResources": {}
+      },
+      {
+        "stage": 2,
+        "storyKey": "ufo_stage_2_story",
+        "requiredResources": { "ufo_part": 1 }
+      },
+      {
+        "stage": 3,
+        "storyKey": "ufo_stage_3_story",
+        "requiredResources": { "ufo_part": 2 }
+      },
+      {
+        "stage": 4,
+        "storyKey": "ufo_stage_4_story",
+        "requiredResources": { "ufo_part": 3 }
+      },
+      {
+        "stage": 5,
+        "storyKey": "ufo_stage_5_story",
+        "requiredResources": { "ufo_part": 5 }
+      },
+      {
+        "stage": 6,
+        "storyKey": "ufo_stage_6_story",
+        "requiredResources": { "ufo_part": 8 }
+      },
+      {
+        "stage": 7,
+        "storyKey": "ufo_stage_7_story",
+        "requiredResources": { "ufo_part": 13 }
+      }
+    ]
   },
   "beds": [
     { "bedId": "bed_01", "unlockedByDefault": false, "purchasePrice": 20, "purchaseCurrency": "farmcoin", "maxVegetables": 2, "growthTime": 10.0 },
