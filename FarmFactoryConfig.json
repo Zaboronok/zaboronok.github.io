@@ -1056,8 +1056,8 @@
     "enabled": false
   },
   "detector": {
-    "minSpawnInterval": 30,
-    "maxSpawnInterval": 60,
+    "minSpawnInterval": 15,
+    "maxSpawnInterval": 30,
     "scanDuration": 2.0,
     "rewardResourceId": "ufo_part",
     "rewardAmount": 1
@@ -1073,32 +1073,32 @@
       {
         "stage": 2,
         "storyKey": "ufo_stage_2_story",
-        "requiredResources": { "ufo_part": 1 }
+        "requiredResources": { "ufo_part": 5 }
       },
       {
         "stage": 3,
         "storyKey": "ufo_stage_3_story",
-        "requiredResources": { "ufo_part": 2 }
+        "requiredResources": { "ufo_part": 20 }
       },
       {
         "stage": 4,
         "storyKey": "ufo_stage_4_story",
-        "requiredResources": { "ufo_part": 3 }
+        "requiredResources": { "ufo_part": 50 }
       },
       {
         "stage": 5,
         "storyKey": "ufo_stage_5_story",
-        "requiredResources": { "ufo_part": 5 }
+        "requiredResources": { "ufo_part": 100 }
       },
       {
         "stage": 6,
         "storyKey": "ufo_stage_6_story",
-        "requiredResources": { "ufo_part": 8 }
+        "requiredResources": { "farmcoin": 2000 }
       },
       {
         "stage": 7,
         "storyKey": "ufo_stage_7_story",
-        "requiredResources": { "ufo_part": 13 }
+        "requiredResources": { "ufo_part": 300 }
       }
     ]
   },
